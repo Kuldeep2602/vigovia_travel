@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    background: linear-gradient(135deg, #4A90E2 0%, #936FE0 100%);
+  }
+  
+  .timeline-dot {
+    @apply absolute -left-3 top-1 bg-vigovia-primary rounded-full w-6 h-6 flex items-center justify-center;
+  }
+  
+  .form-input {
+    @apply w-full px-4 py-3 border border-vigovia-accent/30 rounded-lg focus:ring-2 focus:ring-vigovia-primary focus:border-transparent transition-colors;
+  }
+  
+  .btn-primary {
+    @apply bg-vigovia-primary text-white px-6 py-3 rounded-lg hover:bg-vigovia-secondary transition-colors font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-vigovia-accent text-white px-4 py-2 rounded-md hover:bg-vigovia-secondary transition-colors;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #936FE0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #680099;
+}
+
+/* Print styles for PDF generation */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
