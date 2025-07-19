@@ -305,7 +305,7 @@ export default function PDFGenerator({ data, onBack }) {
             </div>
             <div className="text-right">
               <p className="text-sm text-vigovia-dark">
-                <span className="font-semibold">Phone:</span> +91-9903999999
+                <span className="font-semibold">Phone:</span> +91-6378986140(my-number)
               </p>
               <p className="text-sm text-vigovia-dark">
                 <span className="font-semibold">Email ID:</span> Contact@Vigovia.Com

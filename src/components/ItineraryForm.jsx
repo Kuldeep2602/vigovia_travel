@@ -471,8 +471,8 @@ export default function ItineraryForm({ onGenerate }) {
       {/* Footer */}
       <footer className="mt-16 py-8 border-t border-vigovia-accent/20">
         <div className="text-center text-vigovia-dark">
-          <p className="text-sm">© 2025 Vigovia Tech Pvt. Ltd. All rights reserved.</p>
-          <p className="text-xs mt-2">Registered Office: 161-109 Chinnabar Hills, Link Business Park, Karnataka, India</p>
+          <p className="text-sm">© 2025 Vigovia Tech. Made by kuldeep.</p>
+          <p className="text-xs mt-2"></p>
         </div>
       </footer>
     </div>
